@@ -1,1 +1,42 @@
-**
+{
+  "name": "mern_skeleton",
+  "version": "1.0.0",
+  "description": "This project consists of fundamental framework for a MERN i/e MongoDB, Express, React and Node project.",
+  "main": "index.js",
+  "scripts": {
+    "development": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/waditya"
+  },
+  "keywords": [
+    "MERN",
+    "REACT",
+    "MONGO",
+    "NODE",
+    "MONGODB",
+    "EXPRESS"
+  ],
+  "author": "Aditya Wagholikar",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "mongoose": "^5.2.6"
+  }
+}
+
