@@ -20,3 +20,12 @@ const getErrorMessage = (err) => {
 export default {getErrorMessage}
 	
 const getUniqueErrorMessage = (err) => {
+
+	let output
+	try{
+		let fieldname = 
+		err.message.substring(err.message.lastIndexOf('.$') + 2, 
+		err.message.lastIndexOf('_1'))
+		output = fieldName.charAt(0).toUpperCase()+ fieldName.slice(1) +
+		'already exists'
+	}
