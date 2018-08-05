@@ -1,1 +1,1 @@
-Chodo Koi nahi
+Ki gal hai
