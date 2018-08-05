@@ -20,7 +20,6 @@ const getErrorMessage = (err) => {
 export default {getErrorMessage}
 	
 const getUniqueErrorMessage = (err) => {
-
 	let output
 	try{
 		let fieldname = 
