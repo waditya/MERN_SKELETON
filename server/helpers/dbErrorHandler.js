@@ -18,3 +18,5 @@ const getErrorMessage = (err) => {
 }
 
 export default {getErrorMessage}
+	
+const getUniqueErrorMessage = (err) => {
