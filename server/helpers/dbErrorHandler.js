@@ -11,14 +11,17 @@ const getErrorMessage = (err) => {
 		}
 	}else{
 		for (let errName in err.errors){
-			if(err.errors[errName].message)
+			if(err.errors[errName].message){
+				message = err.errors[errName].message				
+			}
+			//message = err
 		}
 	}
 	return message
 }
 
 export default {getErrorMessage}
-	
+
 const getUniqueErrorMessage = (err) => {
 	let output
 	try{
